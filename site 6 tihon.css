@@ -1,0 +1,102 @@
+body {
+background-color: rgb(0, 255, 34);
+}
+#header {
+background-color: rgb(138, 10, 10);
+}
+#NAV {
+background-color: rgb(32, 229, 255);
+}
+#menu1{
+position: relative;
+display: block;
+width: 100%;
+height: auto;
+z-index: 10;
+}
+#menu1 ul{
+position: relative;
+display: block;
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: auto;
+list-style: none;
+}
+#menu > ul::after{
+    display: block;
+    width: 100px;
+    height: 0px;
+    clear: both;
+    content: " ";
+}
+#menu1 ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+#menu1 ul li a{
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 14px;
+    line-height:1.3em ;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+#menu1 ul li ul{
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 200px;
+    background-color: #3b3bd1;
+}
+#menu1 ul li:hover ul{
+    display: block;
+}
+#menu1 ul li ul li{
+    float: none;
+    width: 100%;
+}
+#menu1 ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1 px solid #fff;
+    color: white;
+}
+
+#menu1 ul li ul li:first-child a{
+    border-top: 0px;
+}
+#post {
+    background-color: rgb(208, 255, 0);
+    }
+#content {
+    background-color: rgb(21, 255, 0);
+}
+#sidebar {
+    background-color: rgb(255, 162, 235);
+}
+#footer {
+    background-color: rgb(47, 0, 255);
+}
+.carousele{
+    margin: 10px;
+}
+.carousele div img{
+    width: 100%;
+}
+
+
+
+
